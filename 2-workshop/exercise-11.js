@@ -15,6 +15,17 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  var output = "";
+  for (let x = 1; x <= 8; x++) {
+    output = "";
+    if (x % 2 != 0) { output = "#"; }
+    else { output = "_"; }
+    for (let y = 1; y <= 7; y++) {
+      if (output.charAt(y - 1) === "#" ) {output += "_"; }
+      else { output += "#"; }
+    }
+    console.log(output);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

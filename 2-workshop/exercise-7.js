@@ -23,6 +23,11 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+    for (var i = 0; i < 24; i++) {
+      if (i >= 22 || i <= 5) { console.log(`It's ${i}h. Time to sleep!`); }
+      else if (i % 6 === 0) { console.log(`It's ${i}h. Time to eat!`); }
+      else { console.log(`It's ${i}h. Time to train!`);}
+    }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

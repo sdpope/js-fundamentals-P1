@@ -20,6 +20,17 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  var fibNum = 0;
+  var y = 0;
+  var z = 1;
+
+  for (let i = 0; i <= 47; i++ ) {
+      fibNum = y + z;
+      y = z; z = fibNum;
+    }
+    console.log(fibNum);
+
+  
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
